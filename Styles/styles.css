@@ -82,7 +82,7 @@ body {
 }
 
 .apresentacao_links_redes {
-    display: flex;3
+    display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
