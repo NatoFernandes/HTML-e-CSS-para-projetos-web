@@ -22,7 +22,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0 0 20%;
+    padding: 2% 0% 0% 20%;
 }
 
 .cabecalho_menu {
@@ -36,10 +36,6 @@ body {
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-}
-
-.titulo-destaque {
-    color: var(--cor-terciaria)
 }
 
 .apresentacao{
@@ -62,9 +58,13 @@ body {
     font-family: var(--font-primaria);
 }
 
+.titulo-destaque {
+    color: var(--cor-terciaria)
+}
+
 .apresentacao_conteudo_texto {
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao_links {
@@ -75,21 +75,26 @@ body {
     gap: 32px;
 }
 
+.apresentacao_links_subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
 .apresentacao_links_redes {
-    /* background-color: var(--cor-terciaria); */
-    display: flex;
+    display: flex;3
     justify-content: center;
     gap: 16px;
-    border-radius: 8px;
+    border: 2px solid var(--cor-terciaria);
     width: 50%;
-    padding: 21.5px 0;
     text-align: center;
+    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
+    padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
 }
 
 .apresentacao_links_redes:hover {
@@ -98,12 +103,6 @@ body {
 
 .apresetacao_imagem {
     width: 50%;
-}
-
-.apresentacao_links_subtitulo {
-    font-family: 'Krona One', 'sans-serif';
-    font-weight: 400;
-    font-size: 1.5rem;
 }
 
 .rodape {
@@ -118,7 +117,7 @@ body {
 @media (max-width: 1200px) {
     
     .cabecalho {
-        padding: 10% 0 0 20%;
+        padding: 10%;
     }
 
     .cabecalho_menu {
